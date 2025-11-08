@@ -1,0 +1,21 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    text-align: center;
+    align-items: center;
+}
+/* .container{
+    border: 1px solid;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+} */
+.registration{
+    height: 600px;
+    width: 450px;
+    border: 1px solid;
+}
