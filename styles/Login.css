@@ -16,6 +16,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
+    background: linear-gradient(to right, #f1f5f4, #a8b2dd);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -23,16 +24,10 @@
     width: 100%;
     align-items: center;
 }
- h3{
+ h2{
     margin-bottom: 20px;
     color: var(--primary-color);
     width: 100%;
-    animation: mymove 2s infinite;
-}
-@keyframes mymove {
-    0% {color: rgb(0, 102, 128)}
-    50% {color: rgb(119, 3, 165);}
-    100% {color: var(--primary-color);}
 }
 form{
     width: 400px;
@@ -40,25 +35,14 @@ form{
     box-shadow: 0 0 10px rgba(29, 29, 29, 0.1);
     text-align: left;
 }
- .img{
+ .img, .txt{
     text-align: center;
     margin-bottom: 20px;
-    animation: mymove1 5s infinite;
-    /* animation: rotate 5s infinite; */
-}
-/* @keyframes rotate {
-    0% {transform: rotate(0deg);}
-    50% {transform: rotate(180deg);}
-    100% {transform: rotate(360deg);}
-} */
-@keyframes mymove1 {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.1);}
-    100% {transform: scale(1);}
 }
 form input[type="text"],
 form input[type="email"],
-form input[type="password"]{
+form input[type="password"],
+form select{
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -76,7 +60,7 @@ label{
     font-weight: bold;
     color: #0c0101;
 }
-form button{
+form button, .btn{
     width: 100%;
     padding: 10px;
     background-color: var(--btn-color);

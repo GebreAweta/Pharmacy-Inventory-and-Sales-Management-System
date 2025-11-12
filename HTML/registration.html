@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registratin form</title>
+    <link rel="stylesheet" href="../styles/Login.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="txt">
+                <h2>Registration Form</h2>
+                <hr>
+            </div>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <select name="role" id="role">
+                <option value="" disabled selected>Select your role</option>
+                <option value="admin">Admin</option>
+                <option value="pharmacist">Pharmacist</option>
+                <option value="user">User</option>
+            </select><br>
+            <input type="submit" value="Register" class="btn">
+            <p>Already have an account? <a href="Login.html">Login</a></p> 
+        </form>
+    </div>
+    
+</body>
+</html>
